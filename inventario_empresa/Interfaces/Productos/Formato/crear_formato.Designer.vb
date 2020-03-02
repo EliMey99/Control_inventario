@@ -22,40 +22,19 @@ Partial Class crear_formato
     'No lo modifique con el editor de código.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Me.IconButton1 = New FontAwesome.Sharp.IconButton()
         Me.txtnombre = New System.Windows.Forms.TextBox()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Label3 = New System.Windows.Forms.Label()
         Me.txtcapacidad = New System.Windows.Forms.TextBox()
+        Me.IconButton1 = New FontAwesome.Sharp.IconButton()
         Me.SuspendLayout()
-        '
-        'IconButton1
-        '
-        Me.IconButton1.Anchor = System.Windows.Forms.AnchorStyles.None
-        Me.IconButton1.BackColor = System.Drawing.Color.SteelBlue
-        Me.IconButton1.FlatAppearance.BorderSize = 0
-        Me.IconButton1.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.IconButton1.Flip = FontAwesome.Sharp.FlipOrientation.Normal
-        Me.IconButton1.Font = New System.Drawing.Font("Century Gothic", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.IconButton1.ForeColor = System.Drawing.SystemColors.ButtonHighlight
-        Me.IconButton1.IconChar = FontAwesome.Sharp.IconChar.None
-        Me.IconButton1.IconColor = System.Drawing.Color.Black
-        Me.IconButton1.IconSize = 16
-        Me.IconButton1.Location = New System.Drawing.Point(26, 258)
-        Me.IconButton1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
-        Me.IconButton1.Name = "IconButton1"
-        Me.IconButton1.Rotation = 0R
-        Me.IconButton1.Size = New System.Drawing.Size(220, 37)
-        Me.IconButton1.TabIndex = 10
-        Me.IconButton1.Text = "Ingresar"
-        Me.IconButton1.UseVisualStyleBackColor = False
         '
         'txtnombre
         '
         Me.txtnombre.Font = New System.Drawing.Font("Century Gothic", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtnombre.Location = New System.Drawing.Point(28, 122)
-        Me.txtnombre.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.txtnombre.Margin = New System.Windows.Forms.Padding(2)
         Me.txtnombre.Name = "txtnombre"
         Me.txtnombre.Size = New System.Drawing.Size(222, 25)
         Me.txtnombre.TabIndex = 9
@@ -112,10 +91,31 @@ Partial Class crear_formato
         '
         Me.txtcapacidad.Font = New System.Drawing.Font("Century Gothic", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtcapacidad.Location = New System.Drawing.Point(28, 201)
-        Me.txtcapacidad.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.txtcapacidad.Margin = New System.Windows.Forms.Padding(2)
         Me.txtcapacidad.Name = "txtcapacidad"
         Me.txtcapacidad.Size = New System.Drawing.Size(222, 25)
         Me.txtcapacidad.TabIndex = 12
+        '
+        'IconButton1
+        '
+        Me.IconButton1.Anchor = System.Windows.Forms.AnchorStyles.None
+        Me.IconButton1.BackColor = System.Drawing.Color.SteelBlue
+        Me.IconButton1.FlatAppearance.BorderSize = 0
+        Me.IconButton1.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.IconButton1.Flip = FontAwesome.Sharp.FlipOrientation.Normal
+        Me.IconButton1.Font = New System.Drawing.Font("Century Gothic", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.IconButton1.ForeColor = System.Drawing.SystemColors.ButtonHighlight
+        Me.IconButton1.IconChar = FontAwesome.Sharp.IconChar.None
+        Me.IconButton1.IconColor = System.Drawing.Color.Black
+        Me.IconButton1.IconSize = 16
+        Me.IconButton1.Location = New System.Drawing.Point(26, 258)
+        Me.IconButton1.Margin = New System.Windows.Forms.Padding(2)
+        Me.IconButton1.Name = "IconButton1"
+        Me.IconButton1.Rotation = 0R
+        Me.IconButton1.Size = New System.Drawing.Size(220, 37)
+        Me.IconButton1.TabIndex = 10
+        Me.IconButton1.Text = "Ingresar"
+        Me.IconButton1.UseVisualStyleBackColor = False
         '
         'crear_formato
         '
@@ -128,7 +128,7 @@ Partial Class crear_formato
         Me.Controls.Add(Me.txtnombre)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.Label2)
-        Me.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.Margin = New System.Windows.Forms.Padding(2)
         Me.MinimumSize = New System.Drawing.Size(292, 289)
         Me.Name = "crear_formato"
         Me.Text = "crear_formato"

@@ -308,3 +308,4 @@ C:\Users\Eliana Gonzalez\Desktop\Ceant - Servicios Integrales\inventario_empresa
 C:\Users\Eliana Gonzalez\Desktop\Ceant - Servicios Integrales\inventario_empresa\inventario_empresa\obj\Debug\inventario_empresa.exe
 C:\Users\Eliana Gonzalez\Desktop\Ceant - Servicios Integrales\inventario_empresa\inventario_empresa\obj\Debug\inventario_empresa.xml
 C:\Users\Eliana Gonzalez\Desktop\Ceant - Servicios Integrales\inventario_empresa\inventario_empresa\obj\Debug\inventario_empresa.pdb
+C:\Users\Eliana Gonzalez\Desktop\Ceant - Servicios Integrales\inventario_empresa\inventario_empresa\obj\Debug\inventario_empresa.Add_user.resources

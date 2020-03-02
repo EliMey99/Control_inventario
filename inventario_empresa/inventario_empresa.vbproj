@@ -119,6 +119,8 @@
     <Compile Include="Clases\Sedes\sede_producto.vb" />
     <Compile Include="Clases\Sedes\trabajador_sede.vb" />
     <Compile Include="Clases\Trabajador\Trabajador.vb" />
+    <Compile Include="Clases\Usuarios\accesos.vb" />
+    <Compile Include="Clases\Usuarios\usuario.vb" />
     <Compile Include="Conexion\conexion_postgres.vb" />
     <Compile Include="Interfaces\Login.Designer.vb">
       <DependentUpon>Login.vb</DependentUpon>
@@ -270,6 +272,12 @@
     <Compile Include="Interfaces\Trabajadores\Crear_trabajadores.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Interfaces\Usuarios\Add_user.Designer.vb">
+      <DependentUpon>Add_user.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Interfaces\Usuarios\Add_user.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Interfaces\Ventana_principal.Designer.vb">
       <DependentUpon>Ventana_principal.vb</DependentUpon>
     </Compile>
@@ -309,6 +317,8 @@
     <Compile Include="Sentencias\Sedes\Sentencias_trabajador_sede.vb" />
     <Compile Include="Sentencias\Trabajadores\consultas_trabajadores.vb" />
     <Compile Include="Sentencias\Trabajadores\Sentencias_trabajadores.vb" />
+    <Compile Include="Sentencias\Usuarios\validaciones_usuario.vb" />
+    <Compile Include="Sentencias\Usuarios\Sentencias_usuario.vb" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Interfaces\Login.resx">
@@ -385,6 +395,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Interfaces\Trabajadores\Crear_trabajadores.resx">
       <DependentUpon>Crear_trabajadores.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Interfaces\Usuarios\Add_user.resx">
+      <DependentUpon>Add_user.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Interfaces\Ventana_principal.resx">
       <DependentUpon>Ventana_principal.vb</DependentUpon>
